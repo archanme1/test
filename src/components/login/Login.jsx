@@ -39,7 +39,7 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button disabled={!username || !password} onClick={handleClick}>
-          {loading ? "please wait" : "Login"}
+          {loading ? "please wait" : "Register"}
         </button>
         <span
           data-testid="error"
